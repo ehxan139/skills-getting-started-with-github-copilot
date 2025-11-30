@@ -142,3 +142,48 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants section inside activity cards */
+.activity-card .participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background: linear-gradient(180deg, rgba(26,35,126,0.03), rgba(26,35,126,0.01));
+  border-radius: 6px;
+  border: 1px solid rgba(26,35,126,0.06);
+}
+
+.activity-card .participants-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 14px;
+}
+
+.activity-card .participants-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.activity-card .participant-item {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  background: #ffffff;
+  border: 1px solid #e6eefc;
+  color: #0b3a66;
+  border-radius: 999px;
+  font-size: 13px;
+  box-shadow: 0 1px 0 rgba(10,25,50,0.02);
+}
+
+/* When no participants yet */
+.activity-card .participants-empty {
+  font-style: italic;
+  color: #777;
+  font-size: 13px;
+}
